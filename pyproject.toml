@@ -1,0 +1,22 @@
+[project]
+name = "oop-14-1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ilya_samsonov",email = "ilya.stanislavov@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "oop_14"}]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^6.2.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
